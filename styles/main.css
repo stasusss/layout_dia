@@ -388,13 +388,13 @@ textarea {
   top: 50%;
   left: 50%;
   display: block;
-  width: 9px;
-  height: 9px;
-  background-image: url(../images/slider/right.svg);
   background-position: center;
   background-repeat: no-repeat;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
+          transform: translate(-50%, -50%);
+  width: 9px;
+  height: 9px;
+  background-image: url(../images/slider/right.svg); }
 
 .slider__button--left::after {
   content: "";
@@ -402,13 +402,13 @@ textarea {
   top: 50%;
   left: 50%;
   display: block;
-  width: 9px;
-  height: 9px;
-  background-image: url(../images/slider/left.svg);
   background-position: center;
   background-repeat: no-repeat;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
+          transform: translate(-50%, -50%);
+  width: 9px;
+  height: 9px;
+  background-image: url(../images/slider/left.svg); }
 
 .slider__text {
   font-family: "Open Sans", sans-serif;
@@ -682,13 +682,13 @@ textarea {
     top: 50%;
     left: 50%;
     display: block;
-    width: 16px;
-    height: 16px;
-    background-image: url(../images/process/arrow-right.svg);
     background-position: center;
     background-repeat: no-repeat;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
+            transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/process/arrow-right.svg); }
   .button-arrow--first {
     background-color: #56ccf2; }
   .button-arrow--second {
