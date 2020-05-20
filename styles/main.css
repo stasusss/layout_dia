@@ -224,9 +224,11 @@ textarea {
         display: block; }
       .header__toggler:checked + .header__toggler--label::after {
         content: url(../images/toggler/x.svg); } }
-  @media (max-width: 319px) {
+  @media (max-width: 500px) {
     .header__container {
-      height: 100vh; } }
+      height: 100vh;
+      padding-left: 40px;
+      padding-right: 40px; } }
 
 .container {
   position: relative;
@@ -274,7 +276,7 @@ textarea {
     display: block;
     width: 100%;
     padding: 3px; }
-  @media (max-width: 319px) {
+  @media (max-width: 500px) {
     .nav-mobile__list {
       height: 55vh; } }
 
@@ -841,7 +843,7 @@ textarea {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  @media (max-width: 319px) {
+  @media (max-width: 500px) {
     .testimonials {
       padding: 25px; } }
 
@@ -1292,6 +1294,9 @@ textarea {
       display: none; }
     .footer__logo {
       margin: 0 auto; } }
+
+body {
+  margin: auto; }
 
 .main {
   max-width: 1600px;
