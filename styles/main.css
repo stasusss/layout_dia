@@ -504,6 +504,9 @@ textarea {
         font-size: 36px; }
       .experience__examples {
         gap: 50px; } }
+  @media (max-width: 1500px) {
+    .experience__examples {
+      grid-column-gap: 800px; } }
 
 .examples {
   text-align: center; }
