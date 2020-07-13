@@ -191,7 +191,7 @@ textarea {
     max-width: 362px; }
   .header__slider {
     position: relative;
-    max-width: 43vw; }
+    max-width: 687px; }
   @media (max-width: 1279px) {
     .header__container {
       padding-left: 100px; } }
@@ -230,6 +230,7 @@ textarea {
 
 .container {
   position: relative;
+  height: 800px;
   max-width: 1600px; }
 
 @media (max-width: 500px) {
@@ -330,6 +331,9 @@ textarea {
   .button--vision {
     -webkit-transition: color 0.25s ease-in-out;
     transition: color 0.25s ease-in-out; }
+  .button--header {
+    text-align: center;
+    line-height: 50px; }
   .button:hover {
     background-color: #ff7e6c; }
   .button--vision:hover ~ .oval {
@@ -354,7 +358,8 @@ textarea {
 .slider__img {
   border-top-left-radius: 200px;
   display: block;
-  max-width: 43vw; }
+  max-width: 1020px;
+  max-height: 678px; }
 
 .slider__description {
   position: absolute;
@@ -546,11 +551,11 @@ textarea {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 1600px;
-  min-height: 759px;
+  min-height: 700px;
   padding: 0 227px;
   background-color: #f2f9ff; }
   .process__explanation {
-    margin-top: 115px;
+    margin-top: 250px;
     max-width: 360px; }
   .process__name {
     color: #c0cdd7; }
@@ -848,6 +853,9 @@ textarea {
   @media (max-width: 500px) {
     .testimonials {
       padding: 25px; } }
+  @media (max-width: 1500px) {
+    .testimonials__people {
+      grid-column-gap: 500px; } }
 
 .process__name, .approach__name, .testimonials__name {
   font-size: 13px;
