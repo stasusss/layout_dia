@@ -506,7 +506,7 @@ textarea {
         gap: 50px; } }
   @media (max-width: 1500px) {
     .experience__examples {
-      grid-column-gap: 800px; } }
+      grid-column-gap: 900px; } }
 
 .examples {
   text-align: center; }
