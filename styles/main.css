@@ -795,7 +795,7 @@ textarea {
     -webkit-transition: opacity 0.25s ease-in-out;
     transition: opacity 0.25s ease-in-out; }
     .approach__img:hover {
-      opacity: 0; }
+      opacity: 0.8; }
   @media (max-width: 1279px) {
     .approach {
       margin-left: 0;
