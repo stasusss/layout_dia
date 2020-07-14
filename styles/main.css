@@ -504,9 +504,12 @@ textarea {
         font-size: 36px; }
       .experience__examples {
         gap: 50px; } }
-  @media (max-width: 1500px) {
+  @media (max-width: 1200px) {
     .experience__examples {
-      grid-column-gap: 900px; } }
+      grid-column-gap: 1000px; } }
+  @media (max-width: 1599px) {
+    .experience__examples {
+      gap: 100px; } }
 
 .examples {
   text-align: center; }
@@ -856,7 +859,10 @@ textarea {
   @media (max-width: 500px) {
     .testimonials {
       padding: 25px; } }
-  @media (max-width: 1500px) {
+  @media (max-width: 1599px) {
+    .testimonials {
+      padding: 168px 50px; } }
+  @media (max-width: 1200px) {
     .testimonials__people {
       grid-column-gap: 500px; } }
 
